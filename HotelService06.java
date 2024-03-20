@@ -33,7 +33,7 @@ public class HotelService06 {
         for(int i=0; i<rooms.length-1; i++){
             int idxMin = i;
             for(int j=i+1; j<rooms.length; j++){
-                if(rooms[j].bintang < rooms[idxMin].bintang){
+                if(rooms[j].bintang > rooms[idxMin].bintang){
                     idxMin = j;
                 }
             }
